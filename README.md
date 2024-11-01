@@ -71,9 +71,9 @@ If you have any questions, you are very welcome to email dongjiahua1995@gmail.co
 If you find CIDM useful for your research and applications, please cite using this BibTeX:
 
 ```BibTeX
-@article{dong2024how,
-  title={How to Continually Adapt Text-to-Image Diffusion Models for Flexible Customization?},
-  author={Jiahua Dong, Wenqi Liang, Hongliu Li, Duzhen Zhang, Meng Cao, Henghui Ding, Salman Khan, Fahad Khan},
-  journal={NeurIPS 2024},
-  year={2024}
+@inproceedings{NEURIPS2024Dong,
+author = {Dong, Jiahua and Liang, Wenqi and Li, Hongliu and Zhang, Duzhen and Cao, Meng and Ding, Henghui and Khan, Salman and Khan, Fahad},
+title = {How to Continually Adapt Text-to-Image Diffusion Models for Flexible Customization?},
+booktitle = {Advances in Neural Information Processing Systems},
+year = {2024},
 }
