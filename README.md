@@ -10,6 +10,10 @@ Official implementation of **[How to Continually Adapt Text-to-Image Diffusion M
 
 ### **Framework**
 
+<div align="center">
+<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/framework.png" width=980>
+</div>
+
 
 ### 🌠  **Key Features:**
 CIDM can can resolve catastrophic forgetting and concept neglect to learn new customization tasks in a concept-incremental
@@ -24,16 +28,30 @@ which can learn new personalized concepts continuously for versatile concept cus
 ## 🔥 **Examples**
 
 ### Concept-incremental learning tasks
+<div align="center">
+<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/datasets.png" width=880>
+</div>
 
 ### Single-concept customization
+<div align="center">
+<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/single-concept.png" width=880>
+</div>
 
 ### Multi-concept customization
+<div align="center">
+<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/multi-concept.png" width=880>
+</div>
 
 ### Custom style transfer
+<div align="center">
+<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/style_transfer.png" width=720>
+</div>
 
 ### Custom image editing
 
-
+<div align="center">
+<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/editing.png" width=490>
+</div>
 
 ## 🚩 **TODO/Updates**
 - [x] Quantitative Results of CIDM.
@@ -43,7 +61,7 @@ which can learn new personalized concepts continuously for versatile concept cus
 
 
 ## Contact
-If you have any questions, you are very welcome to email dongjiahua1995@gmail.com and liangwenqi0123@gmail.com
+If you have any questions, you are very welcome to email dongjiahua1995@gmail.com.
 
    
 
