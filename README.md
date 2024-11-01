@@ -4,7 +4,7 @@
 
 ---
 
-Official implementation of **[How to Continually Adapt Text-to-Image Diffusion Models for Flexible Customization?](https://arxiv.org/abs/2405.01434)**.
+Official implementation of **[How to Continually Adapt Text-to-Image Diffusion Models for Flexible Customization?](https://arxiv.org/abs/2410.17594)**.
 </div>
 
 
