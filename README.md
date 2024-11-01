@@ -29,28 +29,28 @@ which can learn new personalized concepts continuously for versatile concept cus
 
 ### Concept-incremental learning tasks
 <div align="center">
-<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/datasets.png" width=880>
+<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/datasets.png" width=800>
 </div>
 
 ### Single-concept customization
 <div align="center">
-<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/single-concept.png" width=880>
+<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/single-concept.png" width=800>
 </div>
 
 ### Multi-concept customization
 <div align="center">
-<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/multi-concept.png" width=880>
+<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/multi-concept.png" width=800>
 </div>
 
 ### Custom style transfer
 <div align="center">
-<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/style_transfer.png" width=720>
+<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/style_transfer.png" width=700>
 </div>
 
 ### Custom image editing
 
 <div align="center">
-<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/editing.png" width=490>
+<img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/editing.png" width=450>
 </div>
 
 ## 🚩 **TODO/Updates**
