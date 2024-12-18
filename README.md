@@ -71,10 +71,35 @@ pip install -r requirements.txt
 
 ### Step 1: Pretrained Model and Data Preparation
 
-Modify the configs under this path './options/cidm'.
+Modify the configs under this path './options/cidm'. If you would like to train cidm on your own data, you should edit 'data_dir', 'caption_dir' and 'replace_mapping' in your config.
 
 ```yaml
+datasets:
+  train:
+    name: LoraDataset
+    data_dir: ./datasets/images/dog
+    caption_dir: ./datasets/caption/dog
+    use_caption: true
+    use_mask: false
+    instance_transform:
+      - { type: HumanResizeCropFinalV3, size: 512, crop_p: 0.5 }
+      - { type: ToTensor }
+      - { type: Normalize, mean: [ 0.5 ], std: [ 0.5 ] }
+      - { type: ShuffleCaption, keep_token_num: 1 }
+      - { type: EnhanceText, enhance_type: object }
+    replace_mapping:
+      dog: <dog1> <dog2>
+    batch_size_per_gpu: 1
+    dataset_enlarge_ratio: 300
 
+  val_vis:
+    name: PromptDataset
+    prompts: ./datasets/validation_prompts/test_dog.txt
+    num_samples_per_prompt: 4
+    latent_size: [ 4,64,64 ]
+    replace_mapping:
+      dog: <dog1> <dog2>
+    batch_size_per_gpu: 4
 ```
 ## 🚩 **TODO/Updates**
 - [x] Quantitative Results of CIDM.
