@@ -53,21 +53,43 @@ which can learn new personalized concepts continuously for versatile concept cus
 <img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/editing.png" width=450>
 </div>
 
+## :wrench: **Dependencies and Installation**
+
+```bash
+# Create and activate conda environment
+conda create -n cidm python=3.8 -y
+conda activate cidm
+
+# Install PyTorch. Below is a sample command to do this, but you should check the following link
+# to find installation instructions that are specific to your compute platform:
+# https://pytorch.org/get-started/locally/
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y  # UPDATE ME!
+
+pip install -r requirements.txt
+```
+## :computer: **CIDM Training**
+
+### Step 1: Pretrained Model and Data Preparation
+
+Modify the configs under this path './options/cidm'.
+
+```yaml
+
+```
 ## 🚩 **TODO/Updates**
 - [x] Quantitative Results of CIDM.
 - [x] CIL Datasets used in our paper.
 - [ ] Source code of CIDM.
 ---
 
+## 📜 License and Acknowledgement
 
-## Contact
+## 📧 Contact
 If you have any questions, you are very welcome to email dongjiahua1995@gmail.com.
 
-   
 
 
-
-# BibTeX
+## 🌏 BibTeX
 If you find CIDM useful for your research and applications, please cite using this BibTeX:
 
 ```BibTeX
