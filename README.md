@@ -71,7 +71,7 @@ pip install -r requirements.txt
 
 ### Step 1: Pretrained Model and Data Preparation
 
-Modify the configs under this path './options/cidm'. If you would like to train cidm on your own data, you should edit 'data_dir', 'caption_dir' and 'replace_mapping' in your config.
+Modify the configurations under the path './options/cidm'. If you wish to train CIDM on your own data, you need to edit 'data_dir', 'caption_dir', and 'replace_mapping' in the configuration file. Additionally，you should specify the model path of **Stable diffusion 1.5** in './scripts/train.sh', referring to [**diffusers**](https://github.com/huggingface/diffusers).
 
 ```yaml
 datasets:
@@ -101,13 +101,56 @@ datasets:
       dog: <dog1> <dog2>
     batch_size_per_gpu: 4
 ```
+
+### Step 2: Start Training
+
+We train our model on two GPUs, each with at least 10GB of memory. You can edit your GPU settings as follows:
+
+```bash
+accelerate config
+
+```
+
+Next, modify './scripts/train.sh' and run the following:
+```bash
+sh scripts/train.sh
+
+```
+
+### Step 3: Inference and Evaluation
+
+Specify the model path of **Stable diffusion 1.5** and replace_prompt in './scripts/inference.sh', and run the following:
+
+```bash
+sh scripts/inference.sh
+
+```
+Compute text-alignment and image-alignment scores referring to [**Custom Diffusion**](https://github.com/adobe-research/custom-diffusion):
+
+```bash
+sh scripts/evaluate.sh
+```
+
 ## 🚩 **TODO/Updates**
 - [x] Quantitative Results of CIDM.
 - [x] CIL Datasets used in our paper.
-- [ ] Source code of CIDM.
+- [x] Source code of CIDM with SD 1.5 version.
+- [ ] Source code of CIDM with SD XL version.
+- [ ] Source code of versatile customization.
 ---
 
-## 📜 License and Acknowledgement
+## 📜 Acknowledgement
+
+We establish CIDM based on the following work, and we thank them for their open-source contributions：
+
+[**diffusers**](https://github.com/huggingface/diffusers)
+
+[**Dreambooth**](https://arxiv.org/abs/2208.12242)
+
+[**Custom Diffusion**](https://github.com/adobe-research/custom-diffusion)
+
+[**Mix-of-Show**](https://github.com/TencentARC/Mix-of-Show)
+
 
 ## 📧 Contact
 If you have any questions, you are very welcome to email dongjiahua1995@gmail.com.
