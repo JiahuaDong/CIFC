@@ -1,0 +1,52 @@
+[
+    {
+        "lora_path": "./output/task_1/models/edlora_model-latest.pth",
+        "concept_name": "dog",
+        "replace_mapping":"<dog1> <dog2>"
+    },
+    {
+        "lora_path": "./output/task_2/models/edlora_model-latest.pth",
+        "concept_name": "duck toy",
+        "replace_mapping":"<duck1> <duck2> <duck3>"
+    },
+    {
+        "lora_path": "./output/task_3/models/edlora_model-latest.pth",
+        "concept_name": "cat",
+        "replace_mapping":"<cat1> <cat2>"
+    },
+    {
+        "lora_path": "./output/task_4/models/edlora_model-latest.pth",
+        "concept_name": "backpack",
+        "replace_mapping":"<backpack1> <backpack2>"
+    },
+    {
+        "lora_path": "./output/task_5/models/edlora_model-latest.pth",
+        "concept_name": "teddy bear",
+        "replace_mapping":"<bear1> <bear2> <bear3>"
+    },
+    {
+        "lora_path": "./output/task_6/models/edlora_model-latest.pth",
+        "concept_name": "painting",
+        "replace_mapping":"<painting1> <painting2>"
+    },
+    {
+        "lora_path": "./output/task_7/models/edlora_model-latest.pth",
+        "concept_name": "dog",
+        "replace_mapping":"<dog3> <dog4>"
+    },
+    {
+        "lora_path": "./output/task_8/models/edlora_model-latest.pth",
+        "concept_name": "drawing",
+        "replace_mapping": "<drawing1> <drawing2>"
+    },
+    {
+        "lora_path": "./output/task_9/models/edlora_model-latest.pth",
+        "concept_name": "cat",
+        "replace_mapping":"<cat3> <cat4>"
+    },
+    {
+        "lora_path": "./output/task_10/models/edlora_model-latest.pth",
+        "concept_name": "ink painting",
+        "replace_mapping": "<ink1> <ink2> <ink3>"
+    }
+]
