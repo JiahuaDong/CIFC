@@ -8,14 +8,14 @@ Official implementation of **[How to Continually Adapt Text-to-Image Diffusion M
 </div>
 
 
-### **Framework**
+### :sparkles: **Framework**
 
 <div align="center">
 <img src="https://github.com/JiahuaDong/CIFC/blob/main/Figs/framework.png" width=980>
 </div>
 
 
-### 🌠  **Key Features:**
+### 🌠  **Key Features**
 CIDM can can resolve catastrophic forgetting and concept neglect to learn new customization tasks in a concept-incremental
 manner. Our work mainly has two parts: 
 1. We propose a new practical Concept-Incremental Flexible Customization (CIFC) problem, where the main challenges are catastrophic forgetting and concept neglect. To address the challenges in the CIFC problem, we develop a novel Concept-Incremental text-to-image Diffusion Model (CIDM),
@@ -25,7 +25,7 @@ which can learn new personalized concepts continuously for versatile concept cus
 
 
 
-## 🔥 **Examples**
+## 📋 **Examples**
 
 ### Concept-incremental learning tasks
 <div align="center">
@@ -139,7 +139,7 @@ sh scripts/evaluate.sh
 - [ ] Source code of versatile customization.
 ---
 
-## 📜 Acknowledgement
+##  :tada: Acknowledgement
 
 We establish CIDM based on the following work, and we thank them for their open-source contributions：
 
